@@ -105,7 +105,7 @@ Wait a few minutes, then log into Cloudflare and confirm the wildcard A record (
 
 If you’d like to keep logs, use this instead:
 
-*/2 * * * * /full/path/to/CloudFlare_DDNS_Updater.sh >> /var/log/cloudflare-ddns.log 2>&1
+*/2 * * * * /usr/local/bin/CloudFlare_DDNS_Updater.sh >> /var/log/cloudflare-ddns.log 2>&1
 
 To check the log:
 
