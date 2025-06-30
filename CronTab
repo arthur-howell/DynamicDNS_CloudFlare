@@ -1,1 +1,1 @@
-*/2 * * * * /usr/local/bin/cloudflare-ddns.sh >> /home/pi/ddns.log 2>&1
+*/2 * * * * /usr/local/bin/cloudflare-ddns.sh >> /var/log/ddns.log 2>&1
