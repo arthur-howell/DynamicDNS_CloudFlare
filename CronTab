@@ -1,0 +1,1 @@
+*/2 * * * * /home/pi/cloudflare-ddns.sh >> /home/pi/ddns.log 2>&1
